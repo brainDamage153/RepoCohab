@@ -32,10 +32,15 @@
                             <%--<input name="txtFechaNac" placeholder="Fecha Nacimiento" title="Your name" type="text" />--%>
                         </div>
                         <div class="s-12 l-7">
-                             <asp:DropDownList ID="DropDownList1" runat="server">
+                             <asp:DropDownList ID="ddlCinturon" runat="server">
                                  <asp:ListItem Text="Cinturon" Value="0"></asp:ListItem>
+                                 <asp:ListItem Text="Blanco" Value="1"></asp:ListItem>
+                                 <asp:ListItem Text="Azul" Value="2"></asp:ListItem>
+                                 <asp:ListItem Text="Morado" Value="3"></asp:ListItem>
+                                 <asp:ListItem Text="Café" Value="4"></asp:ListItem>
+                                 <asp:ListItem Text="Negro" Value="5"></asp:ListItem>
                              </asp:DropDownList>
-                             <asp:TextBox ID="txtCinturon" runat="server"></asp:TextBox>
+                            
                             <%--<input name="txtCinturon" placeholder="Cinturon" title="Your name" type="text" />--%>
                         </div>
                         <div class="s-12 l-7">

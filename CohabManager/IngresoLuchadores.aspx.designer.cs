@@ -49,22 +49,13 @@ namespace CohabManager {
         protected global::System.Web.UI.WebControls.TextBox txtFechaNac;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// ddlCinturon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// txtCinturon control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCinturon;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCinturon;
         
         /// <summary>
         /// txtFechaIngreso control.

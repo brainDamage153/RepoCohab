@@ -14,9 +14,10 @@ namespace CohabManager
             txtRut.Attributes.Add("placeHolder", "Rut");
             txtNombre.Attributes.Add("placeHolder", "Nombre");
             txtApellido.Attributes.Add("placeholder","Apellido");
-            txtFechaNac.Attributes.Add("placeholder", "Fecha de Nacimiento");
-            txtCinturon.Attributes.Add("placeholder", "Cinturon");//cambiar por combobox
-
+            txtFechaNac.Attributes.Add("placeholder", "Fecha de Nacimiento"); //cambiar a calendario
+            txtFechaIngreso.Attributes.Add("placeholder","Fecha Ingreso"); //cambiar a calendario
+            txtDireccion.Attributes.Add("palceholder","Dirección");
+           
         }
     }
 }
